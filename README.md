@@ -1,5 +1,9 @@
 # Toko online
 
+Nama: Andini Ayu Ningsih
+Prodi: Informatika
+NPM: 26081010052
+
 Web online PHP + MySQL yang menampilkan 3 tabel: kategori, produk, dan penjualan.
 
 ## Struktur
