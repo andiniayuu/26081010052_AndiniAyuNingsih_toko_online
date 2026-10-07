@@ -1,0 +1,82 @@
+/* Warna brand: hijau #0F7B5F */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7f6;
+}
+
+/* Navbar pakai flexbox */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0f7b5f;
+  color: white;
+  padding: 15px 20px;
+}
+.navbar h1 {
+  margin: 0;
+  font-size: 20px;
+}
+.navbar a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+/* Card: padding, border, shadow */
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.card h2 {
+  margin-top: 0;
+  color: #0f7b5f;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+th {
+  background: #0f7b5f;
+  color: white;
+}
+
+.scroll {
+  overflow-x: auto;
+}
+
+/* Responsif untuk HP */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .navbar a {
+    margin: 0 8px;
+  }
+  .card {
+    padding: 12px;
+  }
+}
